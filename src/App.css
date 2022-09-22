@@ -1,38 +1,25 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Playfair+Display&display=swap');
+
+
+.box {
+  height: 3rem;
+  width: 12rem;
+  border: solid 1px white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.whitelink {
+  border-bottom-width: 0;
+  background-image: linear-gradient(transparent, transparent), linear-gradient(#ffff, #ffff);
+  background-size: 0 1px;
+  background-position: 50% 90%;
+  background-repeat: no-repeat;
+  transition: background-size .3s ease-in-out;
+  text-decoration-skip-ink: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.whitelink:hover {
+  background-size: 100% 1px;
+  background-position: 50% 90%
 }
