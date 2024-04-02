@@ -1,6 +1,8 @@
 import React from 'react'
 import Header from './Header'
 import '../App.css'
+import About from './About'
+import Contact from './Contact'
 
 export default function Home() {
   return (
@@ -20,6 +22,8 @@ export default function Home() {
                 </div>
             </div>
         </div>
+        <About/>
+        <Contact/>
     </>
   )
 }

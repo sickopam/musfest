@@ -7,7 +7,7 @@ export default function Contact() {
             <div data-aos='fade-in' className='flex justify-between'>
                 <div>
                     <h1 className='text-3xl font-bold'>MEKRAS</h1>
-                    <h2 className='text-sm font-light'>©2022 Malioboro</h2>
+                    <h2 className='text-sm font-light'>©2022 Pasar Kembang</h2>
                 </div>
                 <div className='grid w-[45%] grid-cols-3 gap-x-12 gap-y-4 place-items-center font-light'>
                     <h1 className='hover:font-bold duration-300'>Privacy Policy</h1>
